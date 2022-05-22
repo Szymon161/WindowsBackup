@@ -2,7 +2,8 @@
 
 ## Konfiguracja skryptu
 
-Należy dokonać edycji czwartej i jedenastej linijki pliku _WindowsBackup.bat_, na przykład poprzez notatnik.
+Należy dokonać edycji czwartej i jedenastej linijki pliku _WindowsBackup.bat_, na przykład poprzez notatnik.  
+Konieczne jest ręczne wpisanie dwóch ścieżek w systemie. Pierwszej, z której ma być utworzona kopia zapasowa, oraz drugiej, do której pliki mają zostać skopiowane.
 
 ## Instrukcja jak wykonywać cyklicznie i automatycznie kopię zapasową.
 
@@ -30,3 +31,6 @@ Po zakończeniu należy nacisnąć przycisk "**OK**" oraz przejść do zakładki
 W zakładce "**Akcje**" należy kliknąć przycisk "**Nowa...**".  
 W polu "**Program/skrypt**" konieczne jest wyszukanie lub podanie ścieżki do pliku _WindowsBackup.bat_ a następnie zatwierdzenie przyskiem "**OK**".
 ![Dodaj akcję](docs/createaction.png "Dodaj akcję")
+
+Na koniec należy zatwierdzić proces tworzenia zadania przyciskiem "**OK**".  
+To tyle!
